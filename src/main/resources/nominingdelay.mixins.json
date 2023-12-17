@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.calahan.nominingdelay.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "mixins.nominingdelay.refmap.json",
+  "mixins": [
+
+  ],
+  "client": [
+    "BlockDestroyDelayMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
